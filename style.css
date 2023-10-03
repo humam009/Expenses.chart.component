@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+    
+}
+.main-card{
+    
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+p{
+    color: hsl(28, 10%, 53%);
+}
+.top-card{
+    background-color: hsl(10, 79%, 65%);
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 400px;
+    margin-bottom: 15px;
+   
+}
+.left{
+    margin: 20px;
+}
+.left h6{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.left h3{
+    font-size: 25px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 25px;
+    
+}
+.right img {
+    width: 70px;
+}
+
+/*---------------------------------------*/
+
+.bottom-card{
+    width: 100%;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    padding: 23px;
+   
+}
+.bottom-card h2{
+    font-weight: 600;
+    color: hsl(25, 47%, 15%);
+}
+.columns{
+  
+    height: 220px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+ 
+    align-items: flex-end;
+}
+.col{
+    background-color:azure;
+    text-align: center;
+    font-size: 13px;
+    color: hsl(33, 100%, 98%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col div{
+   
+    border-radius: 5px;
+    width: 50px;
+    cursor: pointer;
+    
+}
+.bar1{
+    background-color:  hsl(10, 79%, 65%);
+    height: 50px;
+    
+}
+.bar2{
+    background-color:  hsl(10, 79%, 65%);
+    height: 100px;
+   
+}
+.bar3{
+    background-color:  hsl(186, 34%, 60%);
+    height: 140px;
+   
+}
+.bar4{
+    background-color:  hsl(10, 79%, 65%);
+    height: 90px;
+   
+}
+.bar5{
+    background-color:  hsl(10, 79%, 65%);
+    height: 70px;
+   
+}
+.bar6{
+    background-color:  hsl(10, 79%, 65%);
+    height: 120px;
+   
+}
+.bar7{
+    background-color:  hsl(10, 79%, 65%);
+    height: 80px;
+   
+}
+
+hr{
+    border: 1px solid  hsl(27, 66%, 92%);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.bottom-sec{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.left h1{
+    font-size: 2.5em;
+    color: hsl(25, 47%, 15%);
+}
+.right h4{
+    margin-top: 20px;
+}
+
+.p{
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+  
+ 
+}
+.p h4{
+    margin:10px;
+    font-size: 15px;
+}
+.dis{
+    display: none;
+}

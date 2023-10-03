@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  
+  <!--  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<body>
+  
+  <div class="main-card">
+     <div class="top-card">
+        <div class="left">
+          <h6>My balance</h6>
+          <h3>$921.48</h3>
+        </div>
+        <div class="right">
+          <img src="images\logo.svg" alt="">
+        </div>
+    </div>
+    <div class="bottom-card">
+      <h2>  Spending - Last 7 days</h2>
+      <div class="columns">
+        <div class="col"><div class="bar1" ></div> <p class="date">mon</p></div>
+        <div class="col"><div class="bar2"></div><p class="date">tue</p></div>
+        <div class="col"> <span class="p dis" id="p"><h4>$52.36</h4></span><div class="bar3" id="bar1"></div><p class="date">wed</p></div>
+        <div class="col"> <span class="p dis" id="p2"><h4>$31.07</h4></span><div class="bar4" id="bar2"></div><p class="date">thu</p></div>
+        <div class="col"><div class="bar5"></div><p class="date">fri</p></div>
+        <div class="col"><div class="bar6"></div><p class="date">sat</p></div>
+        <div class="col"><div class="bar7"></div><p class="date">sun</p></div>
+
+      </div>
+      <hr>
+      <div class="bottom-sec">
+        <div class="left">
+          <p> Total this month</p>
+          <h1>$478.33</h1>
+        </div>
+        <div class="right">
+          <h4>+2.4%</h4>
+          <p>from last month</p>
+        </div>
+       
+      </div>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+
+</body>
+</html>
